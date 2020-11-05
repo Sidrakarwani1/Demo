@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS/jquery-3.5.1 (1).js"></script>
+</head>
+<body>
+    <button>Click</button>
+    <div class="container">
+        <h2>Heading Tag</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum temporibus doloribus atque delectus ut cupiditate impedit aliquam quam culpa. Unde possimus aliquid beatae atque dignissimos adipisci? Repudiandae, delectus praesentium.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum temporibus doloribus atque delectus ut cupiditate impedit aliquam quam culpa. Unde possimus aliquid beatae atque dignissimos adipisci? Repudiandae, delectus praesentium.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum temporibus doloribus atque delectus ut cupiditate impedit aliquam quam culpa. Unde possimus aliquid beatae atque dignissimos adipisci? Repudiandae, delectus praesentium.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum temporibus doloribus atque delectus ut cupiditate impedit aliquam quam culpa. Unde possimus aliquid beatae atque dignissimos adipisci? Repudiandae, delectus praesentium.</p>
+
+
+    </div>
+    <script>
+        $(document).ready(()=>{
+            $("button").click(function(){
+                $(".container p:eq(2)").css("border","5px solid blue");
+        });
+    });
+
+    </script>
+    
+
+</body>
+</html>
